@@ -23,7 +23,7 @@ const Gallery = () => {
       bgColor: "#E6F7FF"
     },
     { 
-      title: "Varraklar yasaymiz", 
+      title: "Jaholatga qarshi ma’rifat", 
       student: "4-A sinf jamoasi", 
       class: "4-A sinf",
       description: "4-“A” sinf o‘quvchilari “Jaholatga qarshi ma’rifat” haftaligi doirasida davra suhbati o‘tkazdilar. Unda bilimning ahamiyati, ma’rifatning jamiyatdagi o‘rni va jaholatning salbiy oqibatlari haqida fikr almashildi. O‘quvchilar o‘z mulohazalarini bildirdilar, kitob o‘qish va ilm olish muhimligi ta’kidlandi. Suhbat qiziqarli va mazmunli tarzda o‘tdi.",
