@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lexend:wght@300;400;700;900&display=swap');
+
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: #fdfdfd;
+}
+
+h1, h2, h3, .fw-black {
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Hero Styles */
+.hero-creative {
+  min-height: 85vh;
+  background: linear-gradient(45deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  border-radius: 0 0 50% 50% / 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  min-height: 85vh;
+  background: rgba(0, 0, 0, 0.2);
+  padding-bottom: 100px;
+}
+
+.floating-animation {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Stat Cards */
+.stat-card-modern {
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+
+.stat-card-modern:hover {
+  transform: translateY(-10px);
+  border-color: #4158D0;
+}
+
+/* Adventure Cards */
+.adventure-card {
+  background: white;
+  border-radius: 30px;
+  border-bottom: 8px solid var(--card-color);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Gallery Frame */
+.img-frame {
+  position: relative;
+  border: 12px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.frame-ribbon {
+  position: absolute;
+  top: 10px; right: -30px;
+  background: #FF6B6B;
+  color: white;
+  padding: 5px 40px;
+  transform: rotate(45deg);
+  font-weight: bold;
+  font-size: 12px;
+}
